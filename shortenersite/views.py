@@ -38,3 +38,4 @@ def get_short_code():
             temp = Urls.objects.get(pk=short_id)
         except:
             return short_id
+    print "asd"
